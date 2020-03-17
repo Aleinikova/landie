@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Aleinikova/landie.git/static/css/main.49aa8c1c.chunk.css",
+    "main.js": "/Aleinikova/landie.git/static/js/main.89a5b5d8.chunk.js",
+    "main.js.map": "/Aleinikova/landie.git/static/js/main.89a5b5d8.chunk.js.map",
+    "runtime-main.js": "/Aleinikova/landie.git/static/js/runtime-main.8a005fcb.js",
+    "runtime-main.js.map": "/Aleinikova/landie.git/static/js/runtime-main.8a005fcb.js.map",
+    "static/js/2.3440a798.chunk.js": "/Aleinikova/landie.git/static/js/2.3440a798.chunk.js",
+    "static/js/2.3440a798.chunk.js.map": "/Aleinikova/landie.git/static/js/2.3440a798.chunk.js.map",
+    "index.html": "/Aleinikova/landie.git/index.html",
+    "precache-manifest.45fecbd399b01094627ebf7ce01e7ed4.js": "/Aleinikova/landie.git/precache-manifest.45fecbd399b01094627ebf7ce01e7ed4.js",
+    "service-worker.js": "/Aleinikova/landie.git/service-worker.js",
+    "static/css/main.49aa8c1c.chunk.css.map": "/Aleinikova/landie.git/static/css/main.49aa8c1c.chunk.css.map",
+    "static/js/2.3440a798.chunk.js.LICENSE.txt": "/Aleinikova/landie.git/static/js/2.3440a798.chunk.js.LICENSE.txt",
+    "static/media/bg.60b43530.svg": "/Aleinikova/landie.git/static/media/bg.60b43530.svg",
+    "static/media/constructing.c2eced79.svg": "/Aleinikova/landie.git/static/media/constructing.c2eced79.svg",
+    "static/media/facebook.d5046313.svg": "/Aleinikova/landie.git/static/media/facebook.d5046313.svg",
+    "static/media/instagram.6b7f9b39.svg": "/Aleinikova/landie.git/static/media/instagram.6b7f9b39.svg",
+    "static/media/landie.0eb6473c.svg": "/Aleinikova/landie.git/static/media/landie.0eb6473c.svg",
+    "static/media/linkedin.05376818.svg": "/Aleinikova/landie.git/static/media/linkedin.05376818.svg",
+    "static/media/login.c6eafeba.svg": "/Aleinikova/landie.git/static/media/login.c6eafeba.svg",
+    "static/media/main.9e5c3087.svg": "/Aleinikova/landie.git/static/media/main.9e5c3087.svg",
+    "static/media/mention.d24d2ab5.svg": "/Aleinikova/landie.git/static/media/mention.d24d2ab5.svg",
+    "static/media/messages.4efde108.svg": "/Aleinikova/landie.git/static/media/messages.4efde108.svg",
+    "static/media/social-influencers.9b56d56b.svg": "/Aleinikova/landie.git/static/media/social-influencers.9b56d56b.svg",
+    "static/media/twitter.d627046a.svg": "/Aleinikova/landie.git/static/media/twitter.d627046a.svg",
+    "static/media/youtube.bf225b4d.svg": "/Aleinikova/landie.git/static/media/youtube.bf225b4d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8a005fcb.js",
+    "static/js/2.3440a798.chunk.js",
+    "static/css/main.49aa8c1c.chunk.css",
+    "static/js/main.89a5b5d8.chunk.js"
+  ]
+}
