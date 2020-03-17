@@ -1,0 +1,94 @@
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: center;
+  max-width: var(--content-width);
+  width: 100%;
+  padding: 18px var(--content-padding) 16px;
+}
+
+.link {
+  font-size: 14px;
+  line-height: 1.71;
+  color: #505f98;
+}
+
+.logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.burgerMenu {
+  display: none;
+  position: relative;
+}
+
+.burgerMenuItem {
+  width: 30px;
+  height: 2px;
+  margin-bottom: 4px;
+  border-radius: 10px;
+  background-color: var(--primary-button-bgcolor);
+  transition: opacity 0.2s ease-out, transform 0.3s ease-in-out;
+}
+
+.burgerMenuItem:last-child {
+  margin-bottom: 0;
+}
+
+.burgerMenuItem:nth-child(2):after {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 30px;
+  height: 2px;
+  margin-bottom: 4px;
+  border-radius: 10px;
+  background-color: var(--primary-button-bgcolor);
+}
+
+.containerMenuOpened .burgerMenuItem:first-child {
+  opacity: 0;
+}
+
+.containerMenuOpened .burgerMenuItem:last-child {
+  opacity: 0;
+}
+
+.containerMenuOpened .burgerMenuItem:nth-child(2) {
+  transform: rotate(45deg);
+}
+
+.containerMenuOpened .burgerMenuItem:nth-child(2):after {
+  transform: rotate(-90deg);
+}
+
+@media(max-width: 768px) {
+  .burgerMenu {
+    display: flex;
+    flex-direction: column;
+    z-index: 101;
+  }
+  .navWrapper {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-height: 0;
+    height: 100vh;
+    z-index: 100;
+
+    overflow: hidden;
+    background-color: #ffffff;
+    transition: max-height .4s ease-in;
+  }
+
+  .containerMenuOpened .navWrapper {
+    max-height: 100vh;
+    /* transition: max-height .4s ease-out; */
+  }
+}

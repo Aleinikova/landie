@@ -1,0 +1,281 @@
+.container {
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.firstScreen {
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-height: calc(100vh - 60px);
+  min-height: 500px;
+  padding: 0 var(--content-padding);
+  max-width: var(--content-width);
+}
+
+.bgWrapper {
+  position: absolute;
+  right: -165px;
+  top: -60px;
+  overflow: hidden;
+  z-index: -2;
+}
+
+.bg {
+  position: relative;
+  top: -100px;
+  right: -127px;
+}
+
+.mainSvg {
+  position: relative;
+  top: 10%;
+  right: -165px;
+  max-height: 781px;
+  z-index: -1;
+}
+
+.block {
+  max-width: 540px;
+}
+
+.firstScreen .block {
+  flex-shrink: 0;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: var(--page-title-font-size);
+  font-weight: 500;
+  line-height: 1.32;
+  letter-spacing: 1px;
+  color: var(--title-color);
+}
+
+.secondTitle {
+  margin-bottom: 16px;
+  font-size: var(--title-font-size);
+  font-weight: 500;
+  line-height: 1.33;
+  color: var(--title-color);
+}
+
+.paragraph {
+  color: var(--primary-text-color);
+  margin-top: 10px;
+}
+
+.paragraph:first-child {
+  margin-top: 0;
+}
+
+.buttonsRow {
+  display: flex;
+  margin-top: 70px;
+}
+
+.buttonFirst {
+  margin-right: 30px;
+}
+
+.screen {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 109px var(--content-padding) 108px;
+  max-width: var(--content-width);
+  width: 100%;
+}
+
+.screenReverse {
+  flex-direction: row-reverse;
+}
+
+.screenReverse .block {
+  max-width: 445px;
+}
+
+.screenImg {
+  max-width: 100%;
+}
+
+.secondaryText {
+  color: var(--secondary-text-color);
+}
+
+.buttonExtraLearnMore {
+  margin-top: 40px;
+}
+
+.priceSection {
+  position: relative;
+  display: flex;;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 58px;
+  width: 100vw;
+  text-align: center;
+  background-color: var(--background-color);
+  color: var(--accent-text-color);
+}
+
+.priceSection:before {
+  content: '';
+  position: absolute;
+  width: 100vw;
+  height: 70px;
+  top: 0;
+  background-color: #ffffff;
+  border-radius: 50%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.priceBg {
+  position: relative;
+  top: -58px;
+}
+
+.priceSection .secondTitle{
+  margin-bottom: 16px;
+}
+
+.priceSection .paragraph {
+  max-width: 600px;
+  text-align: center;
+  margin-bottom: 62px;
+}
+
+.priceContainer {
+  position: absolute;
+  top: 18%;
+}
+
+.price {
+  margin-bottom: 60px;
+}
+
+.priceValue {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1.32;
+  letter-spacing: 1px;
+}
+
+.priceCondition {
+  font-size: 16px;
+  line-height: 1.63;
+}
+
+.infoText {
+  margin-bottom: 5px;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--info-text-color);
+}
+
+.properties {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.property {
+  max-width: calc((100% - 30px) / 2);
+}
+
+.propertyImg {
+  margin-bottom: 14px;
+}
+
+.propertyTitle {
+  margin-bottom: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.63;
+  color: var(--title-color);
+}
+
+.propertyDescription {
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--info-text-color);
+}
+
+@media(max-width: 1110px) {
+  .mainSvg {
+    right: calc(-1 * var(--content-padding));
+  }
+  .block {
+    max-width: 40%;
+    margin-right: 30px;
+  }
+  .screenReverse .block {
+    max-width: 40%;
+    margin-right: 0;
+    margin-left: 30px;
+  }
+}
+
+@media(max-width: 960px) {
+  .firstScreen {
+    margin-bottom: 100px;
+  }
+  .screen {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    flex-direction: column;
+  }
+  .block {
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 50px;
+  }
+  .screenReverse .block {
+    max-width: 100%;
+    margin-left: 0;
+  }
+  .mainSvg {
+    position: absolute;
+    max-height: 500px;
+  }
+  .bgWrapper {
+    right: 0;
+  }
+  .firstScreen .paragraph {
+    max-width: 400px;
+    color: var(--accent-text-color);
+  }
+}
+
+@media(max-width: 768px) {
+  .mainSvg {
+    right: -150px;
+  }
+  .priceBg {
+    display: none;
+  }
+  .priceSection {
+    padding: 60px var(--content-padding);
+  }
+  .priceSection:before {
+    content: none;
+  }
+  .priceContainer {
+    position: initial;
+  }
+  .screen {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+@media(max-width: 425px) {
+  .buttonFirst {
+    margin-right: 10px;
+  }
+}

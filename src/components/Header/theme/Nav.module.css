@@ -1,0 +1,11 @@
+.list {
+  display: flex;
+}
+
+@media(max-width: 768px) {
+  .list {
+    flex-direction: column;
+    padding-top: 60px;
+  }
+}
+

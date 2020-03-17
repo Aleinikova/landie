@@ -1,0 +1,78 @@
+.container {
+  position: relative;
+  height: 36px;
+  padding: 4px 40px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.63;
+  text-align: center;
+  color: var(--primary-button-text-color);
+  border-radius: 2px;
+  border: solid 2px var(--primary-button-bgcolor);
+  background-color: var(--primary-button-bgcolor-hover);
+  overflow: hidden;
+  z-index: 0;
+}
+
+.content {
+  z-index: 1;
+}
+
+.container:before {
+  content: '';
+  position: absolute;
+  left: -10%;
+  top: 0;
+  z-index: -1;
+  width: 120%;
+  height: 100%;
+  background-color: var(--primary-button-bgcolor);
+  transform: skew(-20deg);
+  transition: left 0.3s ease-in;
+}
+
+.containerIsOutline {
+  border: solid 2px var(--primary-button-bgcolor);
+  background-color: var(--primary-button-bgcolor);
+  color: var(--secondary-button-text-color);
+}
+
+.containerIsExtra {
+  border: none;
+  background-color: var(--secondary-button-bgcolor);
+  color: var(--secondary-button-text-color);
+}
+
+.container:hover.container:before {
+  left: 120%;
+  transition: left 0.35s ease-in;
+}
+
+.container:hover {
+  color: var(--secondary-button-text-color);
+}
+
+.containerIsOutline:before {
+  background-color: var(--primary-button-bgcolor-hover);
+}
+
+.containerIsOutline:hover {
+  color: var(--primary-button-bgcolor-hover);
+}
+
+.containerIsExtra:before {
+  content: none;
+  background-color: var(--secondary-button-bgcolor-hover);
+}
+
+.containerIsExtra:hover {
+  background-color: var(--secondary-button-bgcolor-hover);
+}
+
+@media(max-width: 425px) {
+  .container {
+    padding: 4px 25px;
+  }
+}
+

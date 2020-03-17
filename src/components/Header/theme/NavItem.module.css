@@ -1,0 +1,18 @@
+.item {
+  margin-right: 60px;
+}
+
+.item:last-child {
+  margin-right: 0;
+}
+
+@media(max-width: 768px) {
+  .item {
+    margin-right: 0;
+    padding: 5px var(--content-padding);
+    border-bottom: 1px solid var(--secondary-color);
+  }
+  .item:first-child {
+    border-top: 1px solid var(--secondary-color);
+  }
+}
