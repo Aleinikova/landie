@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8bbcfab4c79ae34812578887f78dd966",
+    "revision": "e90c76aef8f520828d19b9b8b9da98f7",
     "url": "/landie/index.html"
   },
   {
-    "revision": "53713c1b24a3f45b4005",
-    "url": "/landie/static/css/main.49aa8c1c.chunk.css"
+    "revision": "9a231ca91242d219b0d9",
+    "url": "/landie/static/css/main.5949d5e7.chunk.css"
   },
   {
-    "revision": "b4ea879678c805d9a394",
-    "url": "/landie/static/js/2.3440a798.chunk.js"
+    "revision": "934c93123c5a413b7fac",
+    "url": "/landie/static/js/2.ec61a1dd.chunk.js"
   },
   {
     "revision": "11a928b57aca5049fe950bf8bcde77c5",
-    "url": "/landie/static/js/2.3440a798.chunk.js.LICENSE.txt"
+    "url": "/landie/static/js/2.ec61a1dd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "53713c1b24a3f45b4005",
-    "url": "/landie/static/js/main.18c96c3a.chunk.js"
+    "revision": "9a231ca91242d219b0d9",
+    "url": "/landie/static/js/main.de4e4df1.chunk.js"
   },
   {
     "revision": "4226c071e3393ee27e56",
@@ -48,24 +48,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/landie/static/media/linkedin.05376818.svg"
   },
   {
-    "revision": "c6eafebaee923604c47825ad672139d4",
-    "url": "/landie/static/media/login.c6eafeba.svg"
+    "revision": "f089f63932d8e75883828d2b54a45cc1",
+    "url": "/landie/static/media/login.f089f639.svg"
   },
   {
     "revision": "9e5c3087f8f192de6fdd095bfd90dc8d",
     "url": "/landie/static/media/main.9e5c3087.svg"
   },
   {
-    "revision": "d24d2ab5679360920d67accb3ae35271",
-    "url": "/landie/static/media/mention.d24d2ab5.svg"
+    "revision": "508ed5ba29c4164bdbdf6df0a14702f5",
+    "url": "/landie/static/media/mention.508ed5ba.svg"
   },
   {
-    "revision": "4efde10880c9593b10561c8d0980b268",
-    "url": "/landie/static/media/messages.4efde108.svg"
+    "revision": "aed98521a7c3d856fe3eb843a21bcb1c",
+    "url": "/landie/static/media/messages.aed98521.svg"
   },
   {
-    "revision": "9b56d56be55bfc3c81f770612c45c2bb",
-    "url": "/landie/static/media/social-influencers.9b56d56b.svg"
+    "revision": "0237594e0b9b80ae0b1b57bd92606a9f",
+    "url": "/landie/static/media/social-influencers.0237594e.svg"
   },
   {
     "revision": "d627046a308317ba8a95f8c694b32ad6",

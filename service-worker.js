@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/landie/precache-manifest.2b0d968ad7351c3fdc43ab7ad360d72a.js"
+  "/landie/precache-manifest.937c3206252eaffc579ec3eb4eb22842.js"
 );
 
 self.addEventListener('message', (event) => {
